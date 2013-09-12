@@ -1,0 +1,236 @@
+
+
+@media (max-width: 1024px) {
+
+/* HEADER */	
+.tagline.hear{ left:20px}
+.tagline.taste{ right:20px}
+
+/* FOOTER */
+#footer ul.menu{ margin-left:0}
+#footer ul.menu li:nth-child(2),
+#footer ul.menu li:nth-child(3){ margin:0}
+#footer .barrel{ display:none}
+#footer .copyright{ margin-top:20px}
+
+/* PAGE */
+.front #content,
+#newsletter .inner,
+.view-profiles .views-row-first .inner,
+.view-profiles .views-row-last .inner{ background:none}
+.violin{ background-position:20px 0}
+
+.front-content,
+#newsletter .inner,
+#whatshappening .inner,
+.view-photo-gallery,
+.view-video-gallery,
+.node-webform,
+#title .inner,
+#newsletter p,
+.view-news .views-row{ padding-left:20px; padding-right:20px}
+
+#newsletter{ text-align:center}
+#newsletter p{ max-width:inherit; }
+#newsletter form{ display:inline; margin:0 auto}
+#newsletter .form-item{ display:inline-block; float:none}
+#newsletter input[type="submit"]{ position:relative; top:3px}
+
+/* HOME */
+.front .flexslider .name{ left:20px}
+
+/* SUSANNE & KATHY */
+.view-profiles .views-row .grid-onethird.content,
+.view-profiles .views-row .grid-twothird.image{ width:49%}
+.view-profiles .views-row-first .views-field .inner{ padding-right:10px}
+.view-profiles .views-row-last .views-field .inner{ padding:0 10px}
+
+/* WHATS HAPPENING */
+.view-news .grid-half.body{ margin-right:0}
+
+/* VIDEO GALLERY */
+.view-video-gallery .grid-onethird.content{ margin-right:0}
+
+}
+
+@media (max-width: 940px) {
+
+.tagline.hear,
+.tagline.taste{ display:none}
+
+}
+
+@media (min-width:801px) and (max-width: 900px) {
+	nav ul li a{ padding:0 13px}
+}
+
+
+@media (max-width: 800px) {
+
+#page{ position:relative} /* DO NOT DELETE, JS MEDIA QUERY */
+
+.grid{ float:none; width:auto; margin:0 auto}
+.grid.grid-third{ width:auto}
+
+nav{ line-height:44px; background:url(../images/bg_line.png) center bottom no-repeat}
+nav ul li{ display:block}
+
+/* PAGE */
+.node-type-page #title .inner, 
+.node-type-webform #title .inner{ height:auto; padding-bottom:20px}
+#title h1{ margin-top:20px}
+.page-node-3 #title .inner,
+.page-node-4 #title .inner,
+.page-node-5 #title .inner{ background:none}
+.violin{ display:none}
+
+/* FOOTER */
+.view-tweets{ padding: 20px 0}
+.view-tweets .view-content{ padding-top:100px; background-size:100px auto; min-height:inherit}
+.view-tweets .views-row-first{ margin-bottom:20px}
+.view-tweets .views-row-first,
+.view-tweets .views-row-last{ float:none; width:auto}
+.grid.social-links{ margin-top:20px}
+#footer{ padding:30px 0}
+#footer ul.menu{ display:none}
+
+/* HOME */
+.home-logo,
+.front .field-name-body{ float:none; width:auto; max-width:auto; margin:0 auto; text-align:center}
+.home-logo{ margin-bottom:20px; text-align:center; max-width:300px}
+#whatshappening h2{ margin:30px 0 0 0}
+#newsletter form{ max-width:100%}
+#newsletter .form-item:first-child{ margin-right:0; width:100%}
+.flex-control-nav{ display:none}
+
+/* SUSANNE & KATHY */
+.view-profiles .views-row .grid-onethird.content{ float:none; width:auto; padding:0 20px; margin-top:20px}
+.view-profiles .views-row .grid-twothird.image{ width:auto; max-width:320px; float:none}
+.view-profiles .views-row-first .views-field .inner,
+.view-profiles .views-row-last .views-field .inner{ padding:0}
+
+/* WHATS HAPPENING */
+.view-news .grid-half.body{ float:none; width:auto}
+.view-news .grid-half.image{ float:none; width:auto; margin:20px auto 0; text-align:center}
+
+/* PHOTO GALLERY */
+.view-photo-gallery{ padding:0}
+#sb-container{ display:none!important}
+.view-photo-gallery a, .sb-image, .sb-gallery, .sb-gallery-field_images{ cursor:default}
+
+/* VIDEO GALLERY */
+.view-video-gallery .grid-onethird.content,
+.view-video-gallery .grid-twothird.video{ float:none; width:auto; margin:0}
+.view-video-gallery ul#share{ position:relative; top:0; left:0; text-align:center}
+.view-video-gallery ul#share li{ display:inline-block; text-align:left; padding:20px 10px 0}
+.view-video-gallery ul#share li:first-child{ background:none;}
+.view-video-gallery .grid-twothird.video{ margin:0 -20px}
+
+/* GET IN TOUCH */
+.page-node-5 .field-name-body,
+.page-node-5 .webform-client-form{ float:none; width:auto}
+.page-node-5 .field-name-body{ margin:20px 0 60px}
+.page-node-5 .webform-client-form{ padding-bottom:100px}
+	
+}
+
+
+@media (max-width: 480px) {
+
+/* HEADER */	
+#header{ height:auto}	
+#header #logo{ padding:0 20px; margin-bottom:0}
+#header #logo img{display:block}
+
+/* FOOTER */
+#newsletter input[type="email"]{ height:40px}
+label, #newsletter label,
+input, select, textarea{ font-size:1.6em; top:10px}
+input[type="submit"]{ font-size:1.6em}
+#newsletter p{ font-size:2.5em}
+
+/* HTML*/
+h1, h2, h3, h4{ font-size:2.5em}
+
+/* PAGE */
+#title h1,
+#title h1 span{ width:100%; background-size:100% auto; background-repeat:no-repeat}
+.page-node-2 #title h1,
+.page-node-2 #title h1 span,
+.page-node-3 #title h1,
+.page-node-3 #title h1 span,
+.page-node-4 #title h1,
+.page-node-4 #title h1 span{ width:100%}
+.view .date{ font-size:1.6em}
+
+/* HOME */
+.front .field-name-body p{ font-size:1.8em}
+.view-tweets .views-field-text{ font-size:1.6em}
+.view-tweets .views-field-created-time{ font-size:1.4em}
+#whatshappening .inner{ height:auto; }
+#whatshappening h2,
+#whatshappening h2 span{ width:100%; background-size:100% auto; margin:10px 0 0 0}
+
+/* SUSANNE & KATHY */
+.view-profiles .views-row-first h2,
+.view-profiles .views-row-last h2{ margin-left:auto; margin-right:auto}
+.view-profiles .views-row-first .body,
+.view-profiles .views-row-last .body{ padding-left:0; text-align:center}
+.view-profiles .views-row a.readmore{ background-position:center 0; text-align:center; display:block }
+.view-profiles .views-row a.readmore:hover{ background-position:center -120px;}
+.view-profiles .views-row-first a.readmore,
+.view-profiles .views-row-last a.readmore{ margin-left:0}
+
+/* WHATS HAPPENING */
+.view-id-news{text-align:center}
+.view-news .grid-half.body{ padding-right:0}
+.view-news .grid-half.image{ margin-right:-20px; margin-left:-20px}
+
+/* PHOTO GALLERY */
+.view-photo-gallery .sb-image{ float:none; width:auto; text-align:center; margin:0 auto}
+
+/* VIDEO GALLERY */
+.view-video-gallery{ padding:0}
+.view-video-gallery h3,
+.view-video-gallery .date{ text-align:center; padding:0 20px}
+.view-video-gallery .grid-twothird.video{ margin:0}
+.view-video-gallery ul#share li{ padding:15px 40px 0 25px;}
+.view-video-gallery ul#share li:first-child{ padding-bottom:15px; background:url(../images/bg_line.png) bottom right no-repeat}
+
+/* GET IN TOUCH */
+.page-node-5 .webform-client-form{ padding-bottom:140px}
+.page-node-5 .contact.susanne,
+.page-node-5 .contact.hillside{ background-position:center 0; padding:160px 0 0; text-align:center; margin-bottom:10px}
+.page-node-5 .contact.hillside{ padding-top:200px}
+.page-node-5 .contact-info p,
+.page-node-5 .contact-info p:first-child{ float:none; width:auto; margin:0 0 15px; padding:0}
+
+
+}
+
+@media (max-width: 380px) {
+
+.page-node-5 #title h1,
+.page-node-5 #title h1 span{ width:100%}
+
+}
+
+
+@media (max-width: 320px) {
+
+/* PAGE */
+#title h1{ height:120px}
+
+/* HOME */
+#whatshappening h2{ height:130px}
+
+/* SUSANNE & KATHY */
+.view-profiles .views-row-last h2, .view-profiles .views-row-last h2 span{ width:100%}
+.view-profiles .views-row-last h2 span{ background-size:100% auto}
+
+/* GET IN TOUCH */
+.page-node-5 .webform-client-form{ padding-bottom:170px}
+.page-node-5 #title h1{ height:150px}
+	
+}
+

@@ -1,0 +1,303 @@
+
+/* -------------------------
+   GLOBAL
+---------------------------- */
+   
+body{ font-size:62.5%; color:#000; background:#fbf9ef url(../images/tile_bg.png) center 0; font-family:'helvetica'}
+#page{ }
+.wrap{ max-width:1002px; margin:0 auto}
+#content{ position:relative}
+/* font-family: 'GFS Didot';*/
+
+
+/* GRID */
+
+.grid{ float:left}
+.grid.grid-third{ width:33%}
+
+
+/* HEADER */
+
+#header{ background:url(../images/tile_header.jpg) repeat-x; height:161px}
+#header .inner{ background:url(../images/bg_header.jpg) center 0 no-repeat}
+#header .logo{ text-align:center; position:relative; line-height:1}
+#header #logo{ display:block; position:relative; z-index:2; margin-bottom:-1px; }
+.tagline{ position:absolute; height:26px; top:69px; z-index:1}
+.tagline.hear{ background:url(../images/bg_hear.png); width:201px; left:0}
+.tagline.taste{ background:url(../images/bg_taste.png); width:221px; right:0}
+
+
+/* NAV */
+
+#menu-toggle{ display:none; text-align:center; line-height:38px; font-size:1.4em; text-transform:uppercase}
+#menu-toggle a{ display:block; color:#4d443f; position:relative; margin-right:15px}
+#menu-toggle a span{ width:25px; height:21px; background:url(../images/mobile_menu.png); display:block; position:absolute; top:8px; left:50%; margin-left:30px}
+#menu-toggle a:hover{ text-decoration:none}
+#menu-toggle a.close span{ background-position:0 -50px}
+#navigation,
+#menu-toggle{ background:url(../images/tile_nav.jpg) repeat-x; font-family:'helveticaHeavy'}
+nav{ text-align:center; text-transform:uppercase; line-height:38px; outline:none}
+nav ul{ font-size:1.4em; margin:0; padding:0; list-style:none }
+nav ul li{ display:inline}
+nav ul li a{ color:#4d443f; text-decoration:none; display:inline-block; padding:0 20px;}
+nav ul li a:hover,
+nav ul li a.active{ color:#5c8310; text-decoration:none}
+
+
+/* FOOTER */
+
+.region-bottom{ margin-top:30px}
+#block-views-tweets-block,
+.view-tweets{ background:url(../images/bg_line.png) center 0 no-repeat}
+.view-tweets{ background-position:center bottom; padding:45px 0; }
+.view-tweets .view-content{ background:url(../images/logo_twitter.png) center 0 no-repeat; min-height:163px}
+.view-tweets .views-row{ float:left; padding:0 3%; text-align:center}
+.view-tweets .views-row-last{ float:right}
+.view-tweets .views-field-text{ font-size:2em}
+.view-tweets .views-field-created-time{ font-size:1.8em; color:#4d443f; display:block}
+
+#footer-links{ padding:40px 0 60px}
+#footer-links .grid{ text-align:center}
+#footer-links ul#social,
+#footer-links ul#social li{ margin:0; padding:0; list-style:none}
+#footer-links ul#social{ padding-top:10px}
+#footer-links ul#social li{ display:inline-block; margin:0 10px 20px;}
+#footer-links ul#social li a{ display:block; text-indent:-999em; background:url(../images/sprite.png); height:70px; }
+#footer-links ul#social li.facebook a{ width:70px; }
+#footer-links ul#social li.twitter a{ width:70px; background-position:-80px 0}
+#footer-links ul#social li.youtube a{ width:175px; background-position:-160px 0}
+#footer-links ul#social li.facebook a:hover{ background-position:0 -80px}
+#footer-links ul#social li.twitter a:hover{ background-position:-80px -80px}
+#footer-links ul#social li.youtube a:hover{ background-position:-160px -80px}
+
+#footer{ background:#250000; padding:45px 0 10px; text-align:center; position:relative }
+#footer ul.menu{ margin:0 0 0 80px; padding:0; list-style:none; font-family:'helveticaBold'; font-size:1.3em; position:relative; z-index:2 }
+#footer ul.menu li{ display:inline;}
+#footer ul.menu li:nth-child(2){ margin-right:85px}
+#footer ul.menu li:nth-child(3){ margin-left:85px}
+#footer ul.menu li a{ color:#f3c33e; text-transform:uppercase; padding:0 12px}
+#footer ul.menu li a:hover,
+#footer ul.menu li a.active{ color:#fff; text-decoration:none}
+#footer .copyright{ color:#93731b; font-size:1.2em; margin-top:90px; z-index:2; position:relative}
+#footer .barrel{ background:url(../images/footer_barrel.jpg) no-repeat; width:140px; height:140px; position:absolute; top:-55px; left:50%; margin-left:-100px; border-radius:100px; border:30px solid #250000; z-index:1}
+
+
+/* PAGE */
+
+#title{ background:url(../images/bg_line.png) center bottom no-repeat; margin-bottom:30px}
+.node-type-page #title .inner,
+.node-type-webform #title .inner{ height:266px; position:relative; background-repeat:no-repeat }
+.node-type-page #title h1,
+.node-type-webform #title h1{ margin-top:58px; display:inline-block; height:181px; text-indent:-999em; position:relative;  }
+.node-type-page #title h1 span,
+.node-type-webform #title h1 span{ height:181px; background-repeat:no-repeat; position:absolute; top:0; left:0 }
+
+.page-node-2 #title h1 span{ background-image:url(../images/title_whatshappening.png); width:501px;}
+.page-node-3 #title h1 span{ background-image:url(../images/title_photogallery.png); width:439px}
+.page-node-3 #title .inner,
+.page-node-4 #title .inner{ background:url(../images/bg_title_photogallery.jpg) 262px 0 no-repeat}
+.page-node-4 #title h1 span{ background-image:url(../images/title_videogallery.png); width:442px}
+.page-node-5 #title h1 span{ background-image:url(../images/title_getintouch.png); width:334px}
+.page-node-5 #title .inner{ background:url(../images/bg_title_getintouch.png) 384px 0 no-repeat}
+
+.violin{ background:url(../images/bg_title_whatshappening.png) no-repeat; position:absolute; width:100%; height:100%; top:0; left:0}
+
+
+/* -------------------------
+   HTML
+---------------------------- */
+
+h1, h2, h3, h4{ line-height:1; margin:0;}
+h1{ margin-top:50px}
+h2, h3, h4{ margin:0 0 25px; padding:0}
+h1, h2{ font-size:4em; text-transform:uppercase; }
+h3, h4{ font-size:3em; line-height:1.3}
+
+p, ul, ol{ font-size:1.6em; padding:0; margin:0 0 25px 0}
+p:last-child, ul:last-child, ol:last-child{ margin-bottom:0}
+ul ul, ul ol, ol ol{ font-size:1em}
+
+strong{ font-family:'helveticaBold'}
+
+a{ color:#5c8310; text-decoration:none; outline:none}
+a:hover{ text-decoration:underline}
+a:focus{ outline:none}
+
+
+/* FORMS */
+
+.form-item { position:relative; margin-bottom:6px}
+label{ font-size:1.6em; cursor:text}
+input, select, textarea{ background:#f3c33e; border:none; padding-left:20px; padding-right:20px; font-size:2em; color:#fff; width:100% }
+input:focus, select:focus, textarea:focus{ outline:none}
+textarea{ padding:8px 2px 2px 20px}
+input[type=text],
+input[type=email]{ height:35px;}
+input[type="submit"]{ font-family:'helveticaBold'; font-size:2.6em; padding:15px 40px 11px 20px; background:#f3c33e url(../images/arrow_white.png) 94% center no-repeat; width:auto; text-transform:uppercase }
+input[type="submit"]:hover{ cursor:pointer; background-color:#6b8915}
+label{ text-transform:uppercase; color:#fff; position:absolute; left:20px; top:7px; font-weight:normal; font-size:2em}
+label .form-required{ display:none}
+.form-item input.error, .form-item textarea.error, .form-item select.error{ background:#f3c33e; border:1px solid #ff0000}
+
+
+/* CLASSES */
+
+.imgrep{ position:relative; text-indent:-999em}
+.imgrep span{ position:absolute; top:0; left:0; display:block}
+
+.messages{ font-size:1.6em}
+.messages p,
+.messages ul{ font-size:1em}
+
+ul#admin-menu-account,
+ul#admin-menu-menu,
+ul#admin-menu-icon{ font-size:9px}
+
+ul.tabs-primary{ position:absolute; margin:0; padding:0; right:0; top:1px; font-size:1em; z-index:999}
+.tabs-primary__tab, 
+.tabs-primary__tab.is-active,
+a.tabs-primary__tab-link, 
+a.tabs-primary__tab-link.is-active{ border-radius:0; border:none; background:#5c8310; color:#fff; text-shadow:none; text-transform:uppercase}
+a.tabs-primary__tab-link:hover{ background:#3c5805; text-decoration:none}
+
+ul.pager{ margin-top:20px}
+.pager-first,
+.pager-last{ display:none}
+
+
+/* -------------------------
+   HOME
+---------------------------- */
+
+.front #title{ display:none}
+.front #content{ background:url(../images/note_home.png) 377px 546px no-repeat; }
+
+.flexslider{ margin:0; border:none; box-shadow:none; background:none; }
+.flex-control-nav{ width:auto; right:19.5%; bottom:12%}
+.flex-control-paging li a{ background:url(../images/sprite.png) -340px 0; width:20px; height:20px; box-shadow: 0 0 5px rgba(0, 0, 0, 1)}
+.flex-control-paging li a.flex-active,
+.flex-control-paging li a:hover{ background:url(../images/sprite.png) -360px 0}
+.front .flexslider .name{ position:absolute; left:0; top:15%; background:url(../images/bg_slideshow_name.png) no-repeat; background-size:100% auto; width:218px; height:129px; z-index:99999 }
+.front .flexslider .bottle{ position:absolute; right:0; bottom:0; background:url(../images/bg_slideshow_bottle.png) right 0 no-repeat; background-size:auto 100%; width:167px; height:100%; z-index:9 }
+
+.front-content{ background:url(../images/bg_line.png) center bottom no-repeat}
+.home-logo{ float:right; width:40.3%}
+.front .field-name-body{ float:left; width:58%; text-transform:uppercase; padding-bottom:25px }
+.front .field-name-body p{ font-size:2.2em; line-height:1.4; margin-bottom:15px}
+.front .field-name-body p strong{ font-size:1.9em}
+
+#newsletter{ background:url(../images/bg_line.png) center bottom no-repeat; padding-bottom:2px}
+#newsletter .inner{ padding:28px 0; background:url(../images/bg_spring2014.jpg) right 0 no-repeat; background-size:auto 100% }
+#newsletter form{ max-width:650px}
+#newsletter .form-item{ float:left; }
+#newsletter .form-item:first-child{ width:70%; margin-right:20px;  }
+#newsletter p{ font-size:4em; line-height:1; max-width:400px}
+#newsletter label{ font-size:2.6em; top:18px;}
+#newsletter input[type=email]{ height:55px; font-size:2.6em}
+
+#whatshappening .inner{ height:264px; position:relative }
+#whatshappening h2{ margin-top:58px; display:inline-block; width:501px; height:181px }
+#whatshappening h2 span{ background:url(../images/title_whatshappening_link.png) no-repeat; width:501px; height:181px}
+
+.front .region-bottom{ margin-top:0}
+
+
+/* -------------------------
+   SUSANNE & KATHY
+---------------------------- */
+
+.page-node-1 #title{ display:none}
+.page-node-1 .region-bottom{ margin-top:0}
+
+.view-profiles .views-row-first{ background:url(../images/bg_line.png) center bottom no-repeat; padding-bottom:2px}
+.view-profiles .views-row .grid-onethird.content{ float:right; width:35%; padding-top:25px }
+.view-profiles .views-row .grid-twothird.image{ float:left; width:62.5%}
+.view-profiles .views-row .image img{ display:block}
+.view-profiles .views-row .readmore{ display:inline-block; background:url(../images/title_readmore.png) no-repeat; padding:90px 0 0 8px;  font-family:'helveticaBold'; text-transform:uppercase; font-size:.9em; margin:25px 0 30px;}
+.view-profiles .views-row .readmore span{ color:#4d443f}
+.view-profiles .views-row .readmore:hover{ background-position:0 -120px; text-decoration:none}
+
+.view-profiles .views-row-first .inner{ background:url(../images/note_susanne.png) 636px bottom no-repeat}
+.view-profiles .views-row-first h2,
+.view-profiles .views-row-first h2 span{ width:217px; height:129px; }
+.view-profiles .views-row-first h2 span{ background:url(../images/title_susanne.png) no-repeat}
+.view-profiles .views-row-first .body{ padding-left:30px}
+.view-profiles .views-row-first  a.readmore{ margin-left:20px}
+
+.view-profiles .views-row-last .inner{ background:url(../images/note_kathy.png) 184px bottom no-repeat}
+.view-profiles .views-row-last .grid-onethird.content{ float:left}
+.view-profiles .views-row-last .grid-twothird.image{ float:right}
+.view-profiles .views-row-last h2,
+.view-profiles .views-row-last h2 span{ width:305px; height:116px; }
+.view-profiles .views-row-last h2 span{ background:url(../images/title_kathy.png) no-repeat}
+.view-profiles .views-row-last .body{ padding-left:15px}
+.view-profiles .views-row-last  a.readmore{ margin-left:5px}
+
+
+/* -------------------------
+   WHATS HAPPENING
+---------------------------- */
+
+.view-news .views-row{ padding-bottom:30px; margin-bottom:30px; background:url(../images/bg_line.png) center bottom no-repeat}
+.view-news .views-row-last{ background:none; margin-bottom:0; padding-bottom:0}
+.view .date{ color:#4d443f; font-size:1.8em; font-style:italic; margin-bottom:5px}
+.view-news h2{ margin-bottom:10px}
+.view-news .grid-half.body{ float:right; padding-right:20px; width:48%}
+.view-news .grid-half.image{ float:left; width:45%}
+
+
+/* -------------------------
+   PHOTO GALLERY
+---------------------------- */
+
+.view-photo-gallery .sb-image{ float:left; width:33.33%}
+.view-photo-gallery .sb-image img{ display:block}
+
+
+/* -------------------------
+   VIDEO GALLERY
+---------------------------- */
+
+.view-video-gallery .views-row{ background:url(../images/bg_line.png) center bottom no-repeat; margin-bottom:30px; padding-bottom:30px}
+.view-video-gallery .views-row-last{ background:none; margin:0; padding:0}
+.view-video-gallery .grid-onethird.content{ float:right; width:31.5%; margin-right:20px}
+.view-video-gallery .grid-twothird.video{ float:left; width:64%}
+.view-video-gallery h3{ margin-bottom:10px; }
+.view-video-gallery ul#share{ margin:0; padding:0; list-style:none; font-size:1.6em; position:absolute; bottom:35px; left:64%}
+.view-video-gallery .views-row-last ul#share{ bottom:5px}
+.view-video-gallery ul#share li{ padding:15px 40px 0 25px;}
+.view-video-gallery ul#share li:first-child{ padding-bottom:15px; background:url(../images/bg_line.png) bottom right no-repeat}
+.view-video-gallery ul#share li a{ color:#000; text-transform:uppercase; font-family:'helveticaBold'; display:block; width:90px; padding-right:65px; line-height:1; position:relative}
+.view-video-gallery ul#share li a:hover{ text-decoration:none}
+.view-video-gallery ul#share li a span{ position:absolute; top:-7px; right:0; background:url(../images/sprite.png)}
+.view-video-gallery ul#share li.facebook a span{ background-position:-390px 0; width:42px; height:42px}
+.view-video-gallery ul#share li.twitter a span{ background-position:-440px 0; width:46px; height:38px; right:-3px}
+.view-video-gallery ul#share li.facebook a:hover span{ background-position:-390px -50px;}
+.view-video-gallery ul#share li.twitter a:hover span{ background-position:-440px -50px;}
+
+
+/* -------------------------
+   GET IN TOUCH
+---------------------------- */
+
+.page-node-5 .webform-client-form{ float:left; width:35%; position:relative; padding-bottom:150px }
+.page-node-5 #webform-component-foot-note{ position:absolute; bottom:0; left:0; }
+.page-node-5 #webform-component-foot-note p{ font-size:1.4em}
+
+.page-node-5 .field-name-body{ float:right; width:60%}
+.page-node-5 .contact{ padding-left:160px}
+.page-node-5 .contact.susanne{ min-height:174px; margin-bottom:45px; background:url(../images/little_miss_violin_sml.png) 0 center no-repeat}
+.page-node-5 .contact.hillside{ min-height:220px; background:url(../images/hillside_winery.png) 0 center no-repeat}
+.page-node-5 .contact h3{ padding-top:30px}
+.page-node-5 .contact-info p{ float:left}
+.page-node-5 .contact-info p:first-child{ margin-right:70px}
+
+
+/* -------------------------
+   VIEWS
+---------------------------- */
+
+.view .views-row{ position:relative}
+.view .views-field-edit-node a{ position:absolute; top:0; right:0; background:#5c8310; color:#fff; text-transform:uppercase; display:inline-block; padding:0 8px; z-index:99}
+.view .views-field-edit-node a:hover{ background:#3c5805; text-decoration:none}
+
