@@ -10,7 +10,7 @@
     <div class="grid grid-third social-links">
         <div class="inner">
             <ul id="social">
-                <li class="facebook"><a href="http://www.facebook.com" rel="external" title="Facebook">Facebook</a></li>
+                <li class="facebook"><a href="https://www.facebook.com/virtuosowine?ref=hl" rel="external" title="Facebook">Facebook</a></li>
                 <li class="twitter"><a href="http://twitter.com/200percent1" rel="external" title="Twitter">Twitter</a></li>
                 <li class="youtube"><a href="https://www.youtube.com/user/TheClubHous" rel="external" title="YouTube">YouTube</a></li>
             </ul>
