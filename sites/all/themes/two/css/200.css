@@ -233,6 +233,8 @@ ul.pager{ margin-top:20px}
 .view-profiles .views-row-last .body{ padding-left:15px}
 .view-profiles .views-row-last  a.readmore{ margin-left:5px}
 
+.view-profiles .views-row-1 .views-field-edit-node a{ top:30px}
+
 
 /* -------------------------
    WHATS HAPPENING
@@ -291,6 +293,7 @@ ul.pager{ margin-top:20px}
 .page-node-5 .contact h3{ padding-top:30px}
 .page-node-5 .contact-info p{ float:left}
 .page-node-5 .contact-info p:first-child{ margin-right:70px}
+#webform-component-phone-number-optional- label{ text-transform:none}
 
 
 /* -------------------------
