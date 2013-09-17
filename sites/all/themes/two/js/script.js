@@ -18,6 +18,13 @@ Drupal.behaviors.my_custom_behavior = {
 			directionNav: false
 		});
 	}
+	
+	// window popups for video share
+	
+	$('.view-video-gallery ul#share a').click( function(){
+		window.open($(this).attr('href'), "", "height=300, width=500");
+		return false;
+	});
 
 	// Forms
 	$('label').click( function(){
