@@ -7,7 +7,7 @@
  * @see https://drupal.org/node/1728140
  */
 ?>
-<?php if ($content): ?>
+
   <footer id="footer" class="<?php print $classes; ?>">
   <div class="wrap">
     <?php print $content; ?>
@@ -15,4 +15,4 @@
     <div class="copyright">&copy;<?php print date('Y'); ?> Hillside Winery & Bistro. All rights reserved.</div>
   </div>
   </footer>
-<?php endif; ?>
+

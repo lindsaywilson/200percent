@@ -7,9 +7,9 @@
  * @see https://drupal.org/node/1728112
  */
 ?>
-<?php if ($content): ?>
+
   <div class="<?php print $classes; ?>">
     <?php print $content; ?>
     <?php include_once DRUPAL_ROOT . '/' . path_to_theme() . '/templates/include--footer.inc'; ?>
   </div>
-<?php endif; ?>
+
