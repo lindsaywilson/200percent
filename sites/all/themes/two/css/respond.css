@@ -164,7 +164,7 @@ h1, h2, h3, h4{ font-size:2.5em}
 .view .date{ font-size:1.6em}
 
 /* HOME */
-.front .flexslider .name{ left:10px; top:10px; max-width:125px}
+.front .flexslider .name{ position:relative; width:100%; background-size:100% auto;  padding:20px 0; left:0; top:20px; max-width:70%}
 .front .field-name-body p{ font-size:1.8em}
 .view-tweets .views-field-text{ font-size:1.6em}
 .view-tweets .views-field-created-time{ font-size:1.4em}
