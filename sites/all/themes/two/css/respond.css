@@ -45,6 +45,9 @@
 .view-profiles .views-row-first .views-field .inner{ padding-right:10px}
 .view-profiles .views-row-last .views-field .inner{ padding:0 10px}
 
+/* SHOP */
+.node-type-wine .node{ padding:0 20px}
+
 /* WHATS HAPPENING */
 .view-news .grid-half.body{ margin-right:0}
 
@@ -57,6 +60,14 @@
 
 .tagline.hear,
 .tagline.taste{ display:none}
+
+/* SHOP */
+.node-type-wine .node .grid{ float:left;}
+.node-type-wine .node .product-image{ float:right;}
+.node-type-wine .product-details{ margin-top:30px}
+.node-type-wine .product-details .grid:first-of-type{ margin-right:15px}
+.node-type-wine .product-price .label{ padding-top:40px; font-size:2.7em; margin-right:20px}
+.node-type-wine .add-to-cart a{ right:-15px}
 
 }
 
@@ -132,6 +143,28 @@ nav ul li{ display:block}
 .page-node-5 .field-name-body{ margin:20px 0 60px}
 .page-node-5 .webform-client-form{ padding-bottom:100px}
 	
+}
+
+
+@media (max-width: 767px) {
+
+/* SHOP */	
+.node-type-wine .node .grid{ float:none; width:auto}
+.node-type-wine .node .product-image{ display:none}
+.node-type-wine .product-price .label{ padding-top:0}
+
+}
+
+@media (max-width: 530px) {
+	
+/* SHOP */
+.node-type-wine .node .logo{ text-align:center; left:30px}
+.node-type-wine .product-price,
+.node-type-wine .add-to-cart,
+.display-price{ text-align:center}
+.node-type-wine .product-price .label{ margin-right:0}
+.node-type-wine .add-to-cart a{ position:static}
+
 }
 
 

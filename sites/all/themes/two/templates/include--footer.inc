@@ -3,7 +3,7 @@
 
     <div class="grid grid-third little-miss-violin">
         <div class="inner">
-            <a href="http://www.susannehou.com/" rel="external"><img src="<?php print path_to_theme() .'/images/little_miss_violin.png'; ?>" /></a>
+            <a href="http://www.susannehou.com/" rel="external"><img src="/<?php print path_to_theme() .'/images/little_miss_violin.png'; ?>" /></a>
         </div>
     </div>
     
@@ -19,7 +19,7 @@
     
     <div class="grid grid-third hillside">
         <div class="inner">
-            <a href="http://www.hillsidewinery.ca/" rel="external"><img src="<?php print path_to_theme() .'/images/hillside_winery.png'; ?>" /></a>
+            <a href="http://www.hillsidewinery.ca/" rel="external"><img src="/<?php print path_to_theme() .'/images/hillside_winery.png'; ?>" /></a>
         </div>
     </div>
 

@@ -64,7 +64,7 @@ nav ul li a.active{ color:#5c8310; text-decoration:none}
 #footer-links ul#social li{ display:inline-block; margin:0 10px 20px;}
 #footer-links ul#social li a{ display:block; text-indent:-999em; background:url(../images/sprite.png); height:70px; }
 #footer-links ul#social li.facebook a{ width:70px; }
-#footer-links ul#social li.twitter a{ width:70px; background-position:-80px 0}
+#footer-links ul#social li.twitter a{ width:78px; background-position:-80px 0}
 #footer-links ul#social li.youtube a{ width:175px; background-position:-160px 0}
 #footer-links ul#social li.facebook a:hover{ background-position:0 -80px}
 #footer-links ul#social li.twitter a:hover{ background-position:-80px -80px}
@@ -165,6 +165,8 @@ ul.pager{ margin-top:20px}
 .pager-first,
 .pager-last{ display:none}
 
+.field .field-label{ font-weight:normal; font-family:'helveticaBold'}
+
 
 /* -------------------------
    HOME
@@ -235,6 +237,36 @@ ul.pager{ margin-top:20px}
 .view-profiles .views-row-last  a.readmore{ margin-left:5px}
 
 .view-profiles .views-row-1 .views-field-edit-node a{ top:30px}
+
+
+/* -------------------------
+   SHOP
+---------------------------- */
+
+.node-type-wine #title{ display:none}
+.node-type-wine .node{ background:url(../images/bg_shop.jpg) center 0 no-repeat}
+.node-type-wine .section{ position:relative}
+.node-type-wine .product-description{ padding-top:50px; width:40%}
+.node-type-wine .product-description .logo{ position:relative; left:-10px}
+.node-type-wine .product-description h3{ text-transform:uppercase;font-size:2.2em; margin:25px 0 10px; font-family:'helveticaBold'; font-weight:normal}
+.node-type-wine .product-image{ float:right; margin:0; padding:0; width:53%}
+
+.node-type-wine .product-details{ background:url(../images/bg_line_thick.png) center 0 no-repeat, url(../images/bg_line.png) center bottom no-repeat; padding:30px 0 20px; font-size:1.8em}
+.node-type-wine .product-details .grid:first-of-type{ margin-right:95px}
+.node-type-wine .model{ font-weight:normal}
+.node-type-wine .product-info-label{ font-family:'helveticaBold'}
+
+.node-type-wine .product-price{ line-height:0.8; padding-top:20px}
+.node-type-wine .product-price .label{ color:#942a00; font-size:4em; text-transform:uppercase; padding-top:30px; margin-right:45px}
+.node-type-wine .product-price .price .value{ font-family:'times new roman'; font-size:8em}
+.node-type-wine .product-price .price .dollar{ font-size:4.5em; position:relative; top:-20px; padding-right:5px}
+
+.node-type-wine .add-to-cart a{ background:url(../images/add_to_cart.png); width:252px; height:250px; text-indent:-999em; font-size:.0001em; position:absolute; top:-14px; right:0; z-index:99; display:inline-block}
+.node-type-wine .add-to-cart a:hover{ background-color:transparent}
+
+.node-type-wine .region-bottom{ margin-top:15px}
+
+.display-price{ float:none; font-weight:normal; padding:0; font-size:1em; text-align:left}
 
 
 /* -------------------------
